@@ -234,9 +234,6 @@ footer ul.social-media {
   padding: 2rem 1.5rem;
 }
 
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
 
 @media (min-width: 768px) {
   .show ul {
