@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  line-height: 1.8;
+  color: hsl(236, 13%, 42%);
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 4rem;
+  background-color: rgb(244, 244, 236);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+
+
+nav ul > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style-type: none;
+}
+nav ul > li a[href] {
+  text-decoration: none;
+
+}
+nav ul > li a[href]:hover {
+  color:hsl(5, 85%, 63%)
+}
+
+.header .button {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.show {
+  padding: 1.25rem;
+  padding-top: 0;
+  display: flex;
+  gap: 2.5rem;
+}
+
+.textcontain {
+ 
+    display: flex;
+    padding: 20px;
+    gap: 2.5rem;
+}
+
+
+.show h1 {
+  font-size: 2.5rem;
+  font-weight: 1000;
+  color: hsl(240, 100%, 5%);
+  margin:auto;
+}
+
+.show div:first-child article p {
+  margin-bottom:auto
+}
+
+.show div:first-child article button {
+  background-color: hsl(5, 85%, 63%);
+  color: #fff;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem; 
+}
+
+.show div:first-child article button:hover {
+  background-color: hsl(240, 100%, 5%);
+}
+
+.show > div:last-child {
+  background-color: hsl(240, 100%, 5%);
+  padding: 1.25em 1.25em 0;
+  height: 35rem;
+  overflow:scroll;
+  
+}
+
+
+.show > div:last-child h2 {
+  color: hsl(35, 77%, 62%);
+  font-size: 3rem;
+}
+
+.show > div:last-child article {
+  padding: 1.25rem 0;
+}
+
+.show > div:last-child article:not(:last-child) {
+  border-bottom: 1px solid hsl(236, 13%, 42%);
+}
+
+.show > div:last-child h3 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.show> div:last-child h3:hover {
+  color: hsl(35, 77%, 62%);
+}
+
+.article{
+  display: flex;
+  padding: 25px;
+  gap: 2.5rem;
+  font-size: 20rem;
+}
+.box_content {
+  padding: 1.25rem;
+  display: flex;
+  
+  gap: 2.5rem;
+}
+
+.box_content article {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.box_content article img {
+  width: 150px;
+}
+
+.box_content article h1 {
+  color: hsl(236, 13%, 42%);
+  font-weight: bold;
+  font-size: 2rem;
+  opacity: 70%;
+}
+
+.box_content article h4 {
+  font-size: 1.25rem;
+  color: hsl(240, 100%, 5%);
+  margin: 1rem 0;
+}
+
+.box_content article h4:hover {
+  color: hsl(35, 77%, 62%);
+}
